@@ -119,30 +119,30 @@ print(x**y)
 #Output will be: 9
 
 #Floor division - The real floor division operator is "//". It returns floor value for both integer and floating point arguments.
-5//2 #Output: 2
--5//2 #Output: -3
-2.0//2 #Output: 1.0
--5.0//2 #Output: -3.0
+5//2 #Output will be: 2
+-5//2 #Output will be: -3
+2.0//2 #Output will be: 1.0
+-5.0//2 #Output will be: -3.0
 
 ##Assignment Operators
 x = 7  #Same as x = 7 #Assigns the value found in the right operand to the value found in the left operand
-print(x) #Output: 7
+print(x) #Output will be: 7
 
 y = 3
 y += 5 #Same as y = 3 + 5 #Adds the value found in the right operand to the value found in the left operand
-print(y) #Output: 8
+print(y) #Output will be: 8
 
 z = 9
 z -= 5 #Same as z = 9 - 5 #Substracts the value found in the right operand from the value found in the left operand
-print(y) #Output: 4
+print(y) #Output will be: 4
 
 p = 3
 p *= 5 #Same as p = 3 * 5 #Multiplies the value found in the right operand by the value found in the left operand
-print(p) #Output: 15
+print(p) #Output will be: 15
 
 q = 10
 q /= 5 #Same as q = 10 / 5 #Divids the value found in the left operand by the value found in the right operand
-print(q) #Output: 2
+print(q) #Output will be: 2
 
 ##Identify Operators
 
@@ -150,53 +150,53 @@ print(q) #Output: 2
 x = 5
 y = 5
 print(x is y)
-#Output: True
+#Output will be: True
 
 x = 5
 y = 3
 print(x is y)
-#Output: False 
+#Output will be: False 
 
 x = 5
 y = "5"
 print(x is y)
-#Output: False (Although both of the value is 5 but y is a string and x is a number)
+#Output will be: False (Although both of the value is 5 but y is a string and x is a number)
 
 #is not - Returns True if both variables are not the same object (Should be matched the data types)
 
 x = 5
 y = 3
 print(x is not y)
-#Output: True
+#Output will be: True
 
 x = 5
 y = 5
 print(x is not y)
-#Output: False
+#Output will be: False
 
 ##Membership Operators
 
 #in - Returns True if a sequence with the specified value is present in the object
 x = "Hello World"
 print('H' in x)
-#Output: True
+#Output will be: True
 
 x = "Hello World"
 print('S' in x)
-#Output: False
+#Output will be: False
 
 x = "Hello World"
 print('h' in x)
-#Output: False (Although there is a H in x but still the output is False. Because the H in x is in capital letter and we know python is case sensitive)
+#Output will be: False (Although there is a H in x but still the output is False. Because the H in x is in capital letter and we know python is case sensitive)
 
 # not in - Returns True if a sequence with the specified value is not present in the object
 x = "Hello World"
 print('H' not in x)
-#Output: False
+#Output will be: False
 
 x = "Hello World"
 print('S' not in x)
-#Output: True
+#Output will be: True
 
 
 #################################################
